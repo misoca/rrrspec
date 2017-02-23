@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rack-livereload"
   spec.add_development_dependency "rack-test"
   spec.add_development_dependency "rake"
-  spec.add_development_dependency "rspec", "< 3.5.0"
+  spec.add_development_dependency "rspec"
   spec.add_development_dependency "sqlite3"
   spec.add_dependency "activerecord", ">= 4.2.0", "< 5.1"
   spec.add_dependency "activesupport"
