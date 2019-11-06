@@ -13,6 +13,9 @@ Gem::Specification.new do |spec|
   spec.summary       = "Execute RSpec in a distributed manner"
   spec.homepage      = "https://github.com/cookpad/rrrspec"
   spec.license       = "MIT"
+  spec.metadata      = {
+    'github_repo' => 'ssh://github.com/misoca/rrrspec'
+  }
 
   gemspec_dir = File.expand_path('..', __FILE__)
   spec.files  = Dir['assets/**/*', 'lib/**/*.rb', 'tasks/**/*.rake', 'views/**/*', 'compass.config', 'config.ru']
